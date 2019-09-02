@@ -10,7 +10,9 @@ const orm = {
         });
         },
 
-    insertOne: function(tableInput, colToSearch) {}
+    insertOne: function(tableInput, colToSearch) {
+        const queryString = "SELECT ??"
+    }
 
 }
 
